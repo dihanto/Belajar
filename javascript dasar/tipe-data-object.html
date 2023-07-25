@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        const person = {
+            "nama lengkap" : "Monkey D Luffy",
+            alamat : "Jepang",
+            umur : 18
+        };
+
+        // person["name"] = "Monkey D Luffy";
+        // person["alamat"] = "Jepang";
+        // person["umur"] = 18;
+
+        console.table(person);
+
+        delete person["umur"];
+
+        console.table(person);
+
+        console.info(`Nama : ${person["nama lengkap"]}`);
+        console.info(`Alamat : ${person.alamat}`);
+        console.info(`Umur : ${person.umur}`);
+
+
+    </script>
+</body>
+</html>

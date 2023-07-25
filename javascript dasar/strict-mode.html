@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        function useStrictMode(){
+            'use strict';
+            const person = {
+                firstName : "Monkey"
+            };
+
+            with (person){
+                console.info(firstName);
+            }
+        };
+
+        useStrictMode();
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        //  const sayHello = (name) => {
+        //     const say = `Hello ${name}`;
+        //     console.info(say);
+        //  }
+
+        // const sayHello = (name) => console.info(`Hello ${name}`);
+        const sayHello = name => console.info(`Hello ${name}`);
+
+
+        sayHello("Luffy");
+
+        // const sum = (first, second) => {
+        //     return first + second;
+        // }
+
+        const sum = (first, second) => first + second;
+
+        console.info(sum(100,100))
+
+        function giveMeName(callback){
+            callback("Zoro")
+        }
+
+        giveMeName((name) => console.info(`Hello ${name}`))
+
+    </script>
+</body>
+</html>

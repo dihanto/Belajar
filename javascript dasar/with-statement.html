@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+
+        const person = {
+            firstname: "Monkey",
+            middlName: "D",
+            lastName: "Luffy"
+        };
+
+        console.info(person.firstname);
+        console.info(person.middlName);
+        console.info(person.lastName);
+
+        with (person){
+            console.info(firstname);
+            console.info(middlName);
+            console.info(lastName);
+        }
+    </script>
+</body>
+</html>

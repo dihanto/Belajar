@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        function* createNames(){
+            yield "Monkey";
+            yield "D";
+            yield "Luffy";
+        }
+
+        const names = createNames();
+
+        for (const name of names){
+            console.log(name);
+        }
+
+        //lazy
+        function* buatGanjil(value){
+            for (let i = 1; i <= value; i++){
+                if (i % 2 === 1){
+                    yield i;
+                }
+            }
+        }
+
+        //eager
+        function* buatGanjilArray(value){
+            const result = [];
+            for (let i = 1; i <= value; i++){
+                if (i % 2 === 1){
+                    result.push(i);
+                }
+            }
+            return result;
+        }
+
+        const numbers = buatGanjil(100);
+        // for (const number of numbers) {
+        //     console.info(number )
+        // }
+        console.info(numbers.next().value);
+        console.info(numbers.next().value);
+        console.info(numbers.next().value);
+        console.info(numbers.next().value);
+
+    </script>
+</body>
+</html>

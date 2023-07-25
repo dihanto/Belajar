@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        function createFullName(firstName, middleName, lastName) {
+            debugger;
+            const fullName = `${firstName} ${middleName} ${lastName}`;
+            return fullName
+        }
+
+        const name = createFullName('Monkey', 'D', 'Luffy');
+        console.info(name);
+
+    function sum(...numbers) {
+        debugger;
+        let total = 0;
+        for (const number of numbers) {
+            total += number;
+        }
+        return total;
+    }
+
+    console.info(sum(1, 1, 1, 1, 1));
+
+    </script>
+</body>
+</html>

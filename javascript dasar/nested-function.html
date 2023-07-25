@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        function outer(){
+            function inner(){
+                document.writeln("Inner");
+            }
+            inner();
+            inner();
+        }
+        outer();
+    </script>
+</body>
+</html>

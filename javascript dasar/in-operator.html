@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        let person = {
+            firstName : "Luffy",
+            lastName : "Monkey"
+        }
+
+        if ("firstName" in person) {
+            alert(`Hello ${person.firstName}`);
+        } else {
+            alert("hello");
+        }
+
+        let student = {
+            firstName : "Monkey",
+            middleName : undefined,
+            lastName : "Luffy"
+        }
+        if ("middleName" in student){
+            document.writeln(`Hello ${student.middleName}`);
+        } else {
+            document.writeln("Hello student");
+        }
+    </script>
+</body>
+</html>

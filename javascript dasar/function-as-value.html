@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        function sayHello(name){
+            document.writeln(`<p> Hello ${name}</p>`);
+        }
+
+        const say = sayHello;
+
+        say("Luffy");
+
+        function giveMeName(callback){
+            callback("Zoro");
+        }
+
+        giveMeName(sayHello)
+    </script>
+</body>
+</html>

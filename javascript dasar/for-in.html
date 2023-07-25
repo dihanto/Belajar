@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+<body>
+    <script>
+        const person = {
+            firstName: "Monkey",
+            middleName: "D",
+            lastName: "Luffy"
+        };
+
+        for(const property in person){
+            document.writeln(`<p>${property} : ${person[property]}</p>`);
+        }
+
+        const names = ["Monkey", "D", "Luffy"];
+        for (const index in names){
+            document.writeln(`<p> ${index} : ${names[index]}</p>`);
+        }
+    </script>
+</body>
+</html>
