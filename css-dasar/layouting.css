@@ -1,0 +1,114 @@
+body {
+    background-image: url(gambar/4907157.jpg);
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: cadetblue;
+    z-index: 999;
+}
+.container {
+    width: 1000px;
+    margin: 75px auto;
+    position: relative;
+    background-color: white;
+}
+
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(gambar/Twitter\ Ribbon-512x512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top:-23px;
+    right: -28px;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 18px;
+}
+
+.menu {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkslategray;
+    
+}
+
+.menu a:hover {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.hero {
+    height: 212px;
+    border-top: 4px solid rgb(9, 203, 138);
+    border-bottom: 4px solid greenyellow;
+    background-image: url(gambar/hero.png);
+    background-repeat: no-repeat;
+}
+
+.content{
+    margin-left: 10px;
+}
+.content .main{
+    width: 600px;
+    float: left;
+}
+
+.content .main h3 {
+    font-size: 20px;
+}
+
+.content .main .writed {
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+.content .main .writed a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.content .main .writed a:hover{
+    background-color: lime;
+    color: black;
+}
+
+.content .main p {
+    font-size: 15px;
+}
+
+.content .side-bar {
+    width: 350px;
+    float: right;
+}
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

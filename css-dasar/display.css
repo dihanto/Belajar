@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #09d68f;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin:  0 auto;
+    overflow: hidden;
+}
+
+.box {
+    padding: 20px;
+    color: #6910dd;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: antiquewhite;
+}
+
+.box2 {
+    background-color: aqua;
+}
+
+.box3 {
+    background-color: beige;
+}
