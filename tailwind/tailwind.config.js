@@ -4,10 +4,15 @@ module.exports = {
   theme: {
     container: {
       center : true,
-      padding: '16px',
+      padding: '30px',
     },
-    extend: {},
+    extend: {
+      screens : {
+        '2xl' : '1320px',
+      },
+    },
   },
+  
   plugins: [],
 }
 
