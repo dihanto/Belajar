@@ -81,7 +81,7 @@
     </header>
     <!-- Navbar section end -->
     <!-- Hero section start -->
-    <section id="hero" class="pt-32">
+    <section id="hero" class="pt-16 lg:pt-32">
       <div class="container">
         <div class="flex flex-wrap">
           <div
@@ -379,19 +379,23 @@
     <!-- Separator section end -->
     <!-- Description section start -->
     <section id="description" class="pt-10">
-      <div class="container h-[560px] relative overflow-hidden">
+      <div class="container lg:h-[560px] relative overflow-hidden">
         <div class="w-full">
           <h3 class="font-bold text-4xl text-center py-10">
             I like to make a simple design
           </h3>
-          <p class="py-3 px-8 pr-32 text-base text-slate-500 text-left">
+          <p
+            class="py-3 px-4 lg:pr-32 text-base text-slate-500 text-center lg:text-left"
+          >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita a
             fugit eaque temporibus tempora esse. Eveniet vitae culpa ab rem.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad
             accusantium velit saepe nulla unde explicabo. Quos harum nostrum
             sint quisquam.
           </p>
-          <p class="py-3 px-8 pr-32 text-base text-slate-500 text-left">
+          <p
+            class="py-3 px-4 lg:pr-32 text-base text-slate-500 text-center lg:text-left"
+          >
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
             corrupti nesciunt, saepe culpa possimus sint sed, iure, nulla
             perferendis odit quod debitis deserunt minima sequi officia iste
@@ -401,7 +405,9 @@
             Nulla nemo animi blanditiis quibusdam, quidem eos pariatur, ad
             officiis velit numquam magnam, suscipit voluptates a natus.
           </p>
-          <p class="py-3 px-8 pr-32 text-base text-slate-500 text-left">
+          <p
+            class="py-3 px-4 lg:pr-32 text-base text-slate-500 text-center lg:text-left"
+          >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
             quisquam enim veniam vel officia at! Reprehenderit! Lorem ipsum
             dolor sit amet consectetur, adipisicing elit. Sint enim assumenda
@@ -447,11 +453,13 @@
             </div>
           </div>
         </div>
-        <div class="w-full relative">
-          <div class="w-[230px] absolute right-0 -top-16">
+        <div class="w-full relative mt-20 lg:mt-0">
+          <div
+            class="w-[230px] absolute -right-16 -top-24 lg:right-0 lg:-top-16"
+          >
             <div class="w-64 h-36 bg-sky-200 -skew-x-[30deg] ml-20"></div>
           </div>
-          <div class="w-[230px] absolute left-0 -top-16">
+          <div class="w-[230px] absolute -left-16 -top-24 lg:left-0 lg:-top-16">
             <div class="w-64 h-36 bg-teal-100 skew-x-[30deg] -ml-24"></div>
           </div>
         </div>
@@ -459,16 +467,22 @@
     </section>
     <!-- Description section end -->
     <!-- Project section start -->
-    <section id="project" class="pt-36 pb-32">
+    <section id="project" class="pt-36">
       <div class="container">
         <div class="w-full flex flex-wrap justify-between items-baseline">
-          <h1 class="font-bold text-5xl ml-12 text-slate-800">
+          <h1 class="font-bold text-4xl lg:text-5xl lg:ml-12 text-slate-800">
             Latest Project
           </h1>
-          <h3 class="font-semibold text-2xl mr-12 text-slate-400">See All</h3>
+          <h3
+            class="font-semibold text-xl lg:text-2xl mr-12 mt-5 text-slate-400"
+          >
+            See All
+          </h3>
         </div>
         <div class="w-full flex flex-wrap justify-evenly px-12 mt-16">
-          <div class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px]">
+          <div
+            class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px] shadow-lg mb-5"
+          >
             <div
               class="w-[310px] h-[240px] bg-slate-200 p-5 mx-auto mt-5 rounded-3xl overflow-hidden mb-4"
             >
@@ -494,7 +508,9 @@
               </div>
             </div>
           </div>
-          <div class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px]">
+          <div
+            class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px] shadow-lg mb-5"
+          >
             <div
               class="w-[310px] h-[240px] bg-slate-200 p-5 mx-auto mt-5 rounded-3xl overflow-hidden mb-4"
             >
@@ -520,7 +536,9 @@
               </div>
             </div>
           </div>
-          <div class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px]">
+          <div
+            class="w-[350px] h-[350px] bg-slate-50 border-2 rounded-[35px] shadow-lg mb-5"
+          >
             <div
               class="w-[310px] h-[240px] bg-slate-200 p-5 mx-auto mt-5 rounded-3xl overflow-hidden mb-4"
             >
@@ -552,28 +570,32 @@
     <!-- Project section end -->
     <!-- Partner section start -->
     <section id="partner" class="mt-24">
-      <div class="container h-[700px] relative overflow-hidden">
+      <div
+        class="container h-[2050px] lg:h-[700px] lg:relative overflow-hidden"
+      >
         <div class="w-full flex text-center justify-center">
-          <h1 class="font-bold text-6xl px-96">Companies I've worked with</h1>
+          <h1 class="font-bold text-4xl lg:text-6xl px-40 lg:px-96">
+            Companies I've worked with
+          </h1>
         </div>
         <div class="w-full mt-24">
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img src="dist/svg/NASA_logo.svg" alt="nasa" class="w-28 h-28" />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-96"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-96 shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img src="dist/svg/Tic-Tac.svg" alt="nasa" class="w-28 h-28" />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[48rem]"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[48rem] shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img src="dist/svg/blue-seal-1.svg" alt="nasa" class="w-28 h-28" />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[72rem]"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[72rem] shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img
               src="dist/svg/Canva_icon_2021.svg"
@@ -582,17 +604,17 @@
             />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[13rem] top-[26rem]"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[13rem] top-[26rem] shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img src="dist/svg/Budget New.svg" alt="nasa" class="w-28 h-28" />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[36rem] top-[26rem]"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[36rem] top-[26rem] shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img src="dist/svg/Git_icon.svg" alt="nasa" class="w-28 h-28" />
           </div>
           <div
-            class="absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[60rem] top-[26rem]"
+            class="lg:absolute w-60 h-60 bg-slate-50 rounded-full border-2 flex justify-center items-center left-[60rem] top-[26rem] shadow-lg ml-11 lg:ml-0 my-4"
           >
             <img
               src="dist/svg/Google__G__Logo.svg"
@@ -605,10 +627,14 @@
     </section>
     <!-- Partner section end -->
     <!-- Hire section start -->
-    <section id="hire" class="mt-36">
+    <section id="hire" class="mt-9 lg:mt-28">
       <div class="container">
-        <div class="w-full h-[550px] bg-slate-700 relative overflow-hidden">
-          <h2 class="font-bold text-white text-6xl p-24 pr-36 absolute z-50">
+        <div
+          class="w-full h-[270px] lg:h-[550px] bg-slate-700 relative overflow-hidden"
+        >
+          <h2
+            class="font-bold text-white text-3xl p-5 lg:text-6xl lg:p-24 lg:pr-36 absolute z-50"
+          >
             See the impact of good, conversion-oriented design on your business.
           </h2>
           <div
@@ -617,16 +643,19 @@
           <div
             class="w-[300px] h-[200px] bg-slate-400 rounded-[1rem] absolute -right-8 top-0 -skew-x-[30deg]"
           ></div>
-          <div class="flex absolute right-20 bottom-14 text-center">
+          <div
+            class="flex absolute right-7 lg:right-20 bottom-3 lg:bottom-6 text-center"
+          >
             <a
               href="#"
-              class="text-3xl font-semibold text-slate-900 bg-gradient-to-r from-sky-400 to-sky-300 rounded-full pl-8 pr-24 py-[20px] my-3"
+              class="text-xl lg:text-3xl font-semibold text-slate-900 bg-gradient-to-r from-sky-400 to-sky-300 rounded-full pl-4 pr-14 py-[10px] lg:pl-8 lg:pr-24 lg:py-[20px] my-3"
               >Hire Me!</a
             >
             <div
-              class="w-16 h-16 rounded-full z-10 bg-slate-700 top-[19px] right-[10px] absolute flex justify-center items-center"
+              class="w-11 h-11 lg:w-16 lg:h-16 rounded-full z-10 bg-slate-700 top-[15px] right-[4px] lg:top-[19px] lg:right-[10px] absolute flex justify-center items-center"
             >
-              <span class="text-white text-4xl font-extralight absolute"
+              <span
+                class="text-white text-2xl lg:text-4xl font-extralight absolute"
                 >→</span
               >
             </div>
@@ -639,8 +668,8 @@
     <!-- Footer section start -->
     <footer class="pt-24 pb-36">
       <div class="container flex flex-wrap justify-between">
-        <div class="w-1/2 flex flex-wrap pl-16">
-          <div class="text-base text-left leading-8 w-1/3">
+        <div class="w-full lg:w-1/2 flex flex-wrap pl-4 lg:pl-16">
+          <div class="text-base text-left leading-8 w-full lg:w-1/3">
             <h4 class="font-bold">Navigation</h4>
             <ul>
               <li><a href="#" class="text-slate-400">Home</a></li>
@@ -652,7 +681,7 @@
               <li><a href="#" class="text-slate-400">Website Service</a></li>
             </ul>
           </div>
-          <div class="text-base text-left leading-[31px] w-1/3">
+          <div class="text-base text-left leading-[31px] w-full lg:w-1/3">
             <h4 class="font-bold">Services</h4>
             <ul>
               <li><a href="#" class="text-slate-400">Branding</a></li>
@@ -664,7 +693,7 @@
               <li><a href="#" class="text-slate-400">Digital Marketing</a></li>
             </ul>
           </div>
-          <div class="text-base text-left leading-[30px] w-1/3">
+          <div class="text-base text-left leading-[30px] w-full lg:w-1/3">
             <h4 class="font-bold">Social Media</h4>
             <ul>
               <li><a href="#" class="text-slate-400">Dribble</a></li>
@@ -676,7 +705,7 @@
               <li><a href="#" class="text-slate-400">Linkedin</a></li>
             </ul>
           </div>
-          <div class="text-base text-left leading-[33px] mt-10">
+          <div class="text-base text-left leading-[33px] w-full mt-10">
             <h4 class="font-bold">Information</h4>
             <ul>
               <li><a href="#" class="text-slate-400">maguire@myport.com</a></li>
@@ -689,18 +718,20 @@
             </ul>
           </div>
         </div>
-        <div class="w-1/2 text-left pr-16">
-          <h1 class="font-bold text-6xl pl-32 text-slate-800">
+        <div class="w-full lg:w-1/2 text-left pr-16">
+          <h1
+            class="font-bold text-3xl lg:text-6xl pl-4 lg:pl-32 pt-6 lg:pt-0 text-slate-800"
+          >
             Be Creative, Be Solutive
           </h1>
           <form action="POST" class="relative">
             <input
               type="text"
               placeholder="Enter your email"
-              class="mt-32 ml-[135px] w-[270px] pl-5 bg-gradient-to-r from-sky-300 to-sky-200 rounded-full text-sm placeholder:text-slate-950 font-semibold h-9"
+              class="mt-10 ml-[35px] lg:ml-[135px] w-[270px] pl-5 bg-gradient-to-r from-sky-300 to-sky-200 rounded-full text-sm placeholder:text-slate-950 font-semibold h-9"
             />
             <div
-              class="absolute bg-slate-800 text-white h-[30px] w-[30px] rounded-full flex items-center justify-center left-[371px] bottom-[3px]"
+              class="absolute bg-slate-800 text-white h-[30px] w-[30px] rounded-full flex items-center justify-center left-[271px] bottom-[3px] lg:left-[371px]"
             >
               →
             </div>
@@ -709,7 +740,7 @@
       </div>
     </footer>
     <!-- Footer section end -->
-    <div class="mb-[40rem]"></div>
+    <div class="mb-[30rem]"></div>
     <script src="dist/js/script.js"></script>
   </body>
 </html>
